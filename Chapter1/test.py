@@ -6,3 +6,5 @@ print(a)
 
 import sys
 print(sys.executable)
+
+print(sys.version)
