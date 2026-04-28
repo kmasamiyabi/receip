@@ -1,6 +1,6 @@
 def raise_exception_group():
     excs = [ValueError("値が範囲外です"), TypeError("文字列は指定出来ません")]
-    raise Exception("検証エラー",excs)
+    raise ExceptionGroup("検証エラー",excs)
 
 
 try:
